@@ -2,6 +2,8 @@ let btn1 = document.getElementById('button1');
 let btn2 = document.getElementById('button2');
 let btn3 = document.getElementById('button3');
 let btn4 = document.getElementById('button4');
+let btn5 = document.getElementById('button5');
+let btn6 = document.getElementById('button6');
 
 
 
@@ -21,9 +23,18 @@ function func4() {
     alert('Congrats!! You are a heterosexual!!');
 }
 
+function func5() {
+    alert('You became a murderer!! Dead end!!');
+}
+
+function func6() {
+    alert('Welcome to heaven!! You died from a train crash!!');
+}
 
 
 btn1.onclick = func1;
 btn2.onclick = func2;
 btn3.onclick = func3;
 btn4.onclick = func4;
+btn5.onclick = func5;
+btn6.onclick = func6;
